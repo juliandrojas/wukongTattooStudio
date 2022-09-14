@@ -13,7 +13,34 @@
         <script src="https://kit.fontawesome.com/857f3fe573.js" crossorigin="anonymous"></script>
     </head>
     <body>
-
+        <!-- Header with Navbar -->
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+                <a class="navbar-brand" href="index.jsp">
+                    <img src="IMG/FAVICON.png" width="30" height="30" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse float-right" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#artist">NUESTRO ARTISTA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">GALERÍA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cotizaciones">COTIZAR PROCEDIMIENTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
