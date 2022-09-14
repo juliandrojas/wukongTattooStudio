@@ -9,8 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <title>Wukong Tattoo Studio</title>
-        <!-- CDN Font Awesome -->
-        <!-- CDN FontAwesome icons -->
+        <!-- CDN Font Awesome Icons -->
         <script src="https://kit.fontawesome.com/857f3fe573.js" crossorigin="anonymous"></script>
     </head>
     <body>
