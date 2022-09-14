@@ -11,16 +11,20 @@
         <title>Wukong Tattoo Studio</title>
         <!-- CDN Font Awesome Icons -->
         <script src="https://kit.fontawesome.com/857f3fe573.js" crossorigin="anonymous"></script>
+        <!-- Custom Favicon -->
+        <link rel="shortcut icon" href="IMG/FAVICON.png" type="image/x-icon">
     </head>
     <body>
         <!-- Header with Navbar -->
         <header class="header">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-                <a class="navbar-brand" href="index.php">Wukong Tattoo Studio</a>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.php">
+                    Wukong Tattoo Studio 
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
@@ -29,7 +33,7 @@
                             <a class="nav-link" href="#artist">NUESTRO ARTISTA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#gallery">PROYECTOS</a>
+                            <a class="nav-link" href="#gallery">GALERÍA</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#cotizaciones">COTIZAR PROCEDIMIENTO</a>
@@ -40,7 +44,7 @@
         </header>
         <!-- Jumbotron -->
         <section class="jumbotron" id="home">
-            <h1 class="display-4">WUKONG TATTOO STUDIO - OFFICIAL</h1>
+            <h1 class="display-4">WUKONG TATTOO STUDIO</h1>
             <p class="lead">Bienvenidos a nuestro sitio web oficial.</p> 
             <hr class="my-4">
             <p>Haz clic abajo para contactarme vía WhatsApp <i class="fa fa-hand-point-down" area-hidden="true"></i></p>
