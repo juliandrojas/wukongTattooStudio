@@ -38,6 +38,14 @@
                 </div>
             </nav>
         </header>
+        <!-- Jumbotron -->
+        <section class="jumbotron" id="home">
+            <h1 class="display-4">WUKONG TATTOO STUDIO - OFFICIAL</h1>
+            <p class="lead">Bienvenidos a nuestro sitio web oficial.</p> 
+            <hr class="my-4">
+            <p>Haz clic abajo para contactarme vía WhatsApp <i class="fa fa-hand-point-down" area-hidden="true"></i></p>
+            <a class="btn btn-primary btn-lg" href="https://wa.link/5p1bay" role="button" target="_blank">IR A WHATSAPP</a>
+        </section>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
