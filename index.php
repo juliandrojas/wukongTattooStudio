@@ -16,7 +16,7 @@
         <!-- Header with Navbar -->
         <header class="header">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-                <a class="navbar-brand" href="index.jsp">
+                <a class="navbar-brand" href="index.php">
                     <img src="IMG/FAVICON.png" width="30" height="30" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
