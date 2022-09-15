@@ -37,6 +37,8 @@
             $mail -> SMTPAuth = true;
             //Correo electrónico
             $mail -> Username = 'juliandra140201@gmail.com';
+            //Password
+            $mail -> Password = 'Yamid6409801';
         } catch (\Throwable $th) {
             //throw $th;
         }
