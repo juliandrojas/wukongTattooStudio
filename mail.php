@@ -35,6 +35,8 @@
             $mail -> Host = 'smtp.herokuapp.com';
             //Indicamos autenticación SMTP
             $mail -> SMTPAuth = true;
+            //Correo electrónico
+            $mail -> Username = 'juliandra140201@gmail.com';
         } catch (\Throwable $th) {
             //throw $th;
         }
