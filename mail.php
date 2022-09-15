@@ -22,6 +22,9 @@
         require 'PHPMailer-master/PHPMailer-master/src/PHPMailer.php';
         require 'PHPMailer-master/PHPMailer-master/src/POP3.php';
         require 'PHPMailer-master/PHPMailer-master/src/SMTP.php';
+        //Creamos una instancia de la clase PHPMailer
+        //Entre paréntesis escribimos "true" para trabajar excepciones
+        $mailer = new PHPMailer(true);
 
 
     }
