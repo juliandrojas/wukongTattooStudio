@@ -24,8 +24,13 @@
         require 'PHPMailer-master/PHPMailer-master/src/SMTP.php';
         //Creamos una instancia de la clase PHPMailer
         //Entre paréntesis escribimos "true" para trabajar excepciones
-        $mailer = new PHPMailer(true);
-
-
+        $mail = new PHPMailer(true);
+        try {
+            //code...
+            //Con el objeto mail llamamos a la función SMTPDebug y para ver los mensajes del server usamos SMTP::DEBUG_SERVER; 
+            $mail -> SMTPDebug = SMTP::DEBUG_SERVER; 
+        } catch (\Throwable $th) {
+            //throw $th;
+        }
     }
 ?>
