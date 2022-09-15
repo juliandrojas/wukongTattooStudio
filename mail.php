@@ -11,6 +11,5 @@
         echo $correoCliente;
         echo $numeroCelular;
         echo $procedimiento;
-        
     }
 ?>
