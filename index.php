@@ -123,6 +123,7 @@
                 </div>
             </section>
             <br>
+            <!-- Gallery Section -->
             <section id="gallery">
                 <h1 class="text-center">Algunos de nuestros proyectos: </h1>
                 <div class="linea"></div>
