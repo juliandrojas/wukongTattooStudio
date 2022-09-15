@@ -31,6 +31,8 @@
             $mail -> SMTPDebug = SMTP::DEBUG_SERVER; 
             //Indicamos el uso de la tecnología SMTP
             $mail -> isSMTP();
+            //Indicamos el host del correo
+            $mail -> Host = 'smtp.herokuapp.com';
         } catch (\Throwable $th) {
             //throw $th;
         }
