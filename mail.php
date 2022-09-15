@@ -11,5 +11,18 @@
         echo $correoCliente;
         echo $numeroCelular;
         echo $procedimiento;
+        //Usamos PHPMAILER
+        use PHPMailer\PHPMailer\PHPMailer;
+        use PHPMailer\PHPMailer\SMTP;
+        use PHPMailer\PHPMailer\Exception;
+        //Añadimos los archivos de PHPMailer
+        require 'PHPMailer-master/PHPMailer-master/src/Exception.php';
+        require 'PHPMailer-master/PHPMailer-master/src/OAuth.php';
+        require 'PHPMailer-master/PHPMailer-master/src/OAuthTokenProvider.php';
+        require 'PHPMailer-master/PHPMailer-master/src/PHPMailer.php';
+        require 'PHPMailer-master/PHPMailer-master/src/POP3.php';
+        require 'PHPMailer-master/PHPMailer-master/src/SMTP.php';
+
+
     }
 ?>
