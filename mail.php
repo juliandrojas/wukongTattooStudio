@@ -33,6 +33,8 @@
             $mail -> isSMTP();
             //Indicamos el host del correo
             $mail -> Host = 'smtp.herokuapp.com';
+            //Indicamos autenticación SMTP
+            $mail -> SMTPAuth = true;
         } catch (\Throwable $th) {
             //throw $th;
         }
