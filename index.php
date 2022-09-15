@@ -225,14 +225,14 @@
                     </div>
                     <div class="form-group">
                         <label for="procedimiento">Procedimiento: </label>
-                        <select class="custom-select" name="procedimientoCliente" id="procedimientoCliente" required>
+                        <select class="custom-select" name="procedimiento" id="procedimientoCliente" required>
                             <option value="Default" selected>Seleccione el procedimiento: </option>
                             <option value="Piercing" name="Piercing">Piercing</option>
                             <option value="Tatuaje" name="Tatuaje">Tatuaje</option>
                         </select>
                         <small id="procedimientoDelCliente" class="form-text text-muted">Selecciona el procedimiento que quieres realizarte.</small>
                     </div>
-                    <input type="submit" value="Cotizar" name="enviar" class="btn btn-primary d-block" id="boton" href="google.com"/>
+                    <input type="submit" value="Cotizar" name="cotizar" class="btn btn-primary d-block" id="boton" href="google.com"/>
                 </form>
             </section>
         </div>
