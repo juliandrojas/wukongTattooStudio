@@ -17,32 +17,31 @@
     <body>
         <!-- Header with Navbar -->
         <header class="header">
-            <!-- Menú de navegación -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-            <div class="container">
-                <a href="index.php" class="navbar-brand">WUKONG TATTOO STUDIO</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Menu de navegación -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#artist">NUESTRO ARTISTA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#gallery">PROYECTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#cotizaciones">COTIZAR PROCEDIMIENTO</a>
-                        </li>
-                    </ul>
+            <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+                <div class="container">
+                    <a href="index.php" class="navbar-brand">WUKONG TATTOO STUDIO</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Menu de navegación -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.php">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#artist">NUESTRO ARTISTA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gallery">PROYECTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#cotizaciones">COTIZAR PROCEDIMIENTO</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
         </header>
         <!-- Jumbotron -->
         <section class="jumbotron" id="home">
@@ -52,6 +51,79 @@
             <p>Haz clic abajo para contactarme vía WhatsApp <i class="fa fa-hand-point-down" area-hidden="true"></i></p>
             <a class="btn btn-primary btn-lg" href="https://wa.link/5p1bay" role="button" target="_blank">IR A WHATSAPP <i class="fa fa-envelope"></i></a>
         </section>
+        <div class="container">
+            <section id="services">
+                <!-- Home -->
+                <h1 class="text-center">Nuestros servicios: </h1>
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="IMG/TATUAJES.jpg" class="d-block w-100" alt="Imagen ejemplo Tatuaje">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>TATUAJES</h5>
+                                <p>Plasmamos en tu piel tus ideas.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="IMG/PERFORACIONES.jpg" class="d-block w-100" alt="Imagen ejemplo Perforación">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>PERFORACIONES</h5>
+                                <p>Adornamos tu cuerpo con estilo.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="IMG/JOYERIA.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>VENTA DE JOYERÍA</h5>
+                                <p>Gran variedad de joyería de calidad.S</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </section>
+            <br>
+            <!-- Artist's Section -->
+            <section id="artist">
+                <h1 class="text-center">Nuestro artista</h1>
+                <br>
+                <div class="container-fluid artist-description d-flex align-items-center justify-content-center">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <img src="IMG/artist.jpg" class="img-fluid" alt="Nuestro Artista">
+                        </div>
+                        <div class="artist-presentation col-12 col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Nombre del artista</h5>
+                                    <p class="card-text">Hola mi nombre es Fulanito, sigueme en mis redes sociales: <i class="fa fa-hand-point-down" area-hidden="true"></i></p>
+                                    <a href="#" class="btn btn-primary d-block" type="button">Instagram <i class="fa fa-instagram"></i></a>
+                                    <br>
+                                    <a href="#" class="btn btn-primary d-block" type="button">Facebook <i class="fa fa-facebook"></i></a>
+                                    <br>
+                                    <a href="#" class="btn btn-primary d-block" type="button">WhatsApp <i class="fa fa-whatsapp"></i></a>
+                                    <br>
+                                    <a href="#" class="btn btn-primary d-block" type="button">Tik Tok <i class="fab fa-tiktok"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+        </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
