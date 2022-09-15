@@ -203,6 +203,38 @@
                 </div> 
             </section>
             <br>
+            <!-- Form Section -->
+            <section id="cotizaciones">
+                <h1 class="text-center">Sección de cotizaciones</h1>
+                <p class="text-center">Estimado cliente, por favor complete este formulario: </p>
+                <form id="formulario" action="mail.php" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre del cliente: </label>
+                        <input type="text" class="form-control" id="nombreCliente" name="nombreCliente" placeholder="Ingresar Nombre" aria-describedby="nombreCliente" required>
+                        <small id="nombreDelCliente" class="form-text text-muted">Ingresa tu nombre.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico: </label>
+                        <input type="email" class="form-control" id="correoCliente" name="correoCliente" placeholder="Ingresar Correo" aria-describedby="correoCliente" required>
+                        <small id="correoDelCliente" class="form-text text-muted">Ingresa tu correo.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="celular">Número de celular: </label>
+                        <input type="text" class="form-control" id="numeroCelular" name="numeroCelular" placeholder="Ingresar Número de Celular (3XXXXXXXXX)" aria-describedby="numeroCelular" required>
+                        <small id="numeroDelCliente" class="form-text text-muted">Ingresa tu número de celular.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="procedimiento">Procedimiento: </label>
+                        <select class="custom-select" name="procedimientoCliente" id="procedimientoCliente" required>
+                            <option value="Default" selected>Seleccione el procedimiento: </option>
+                            <option value="Piercing" name="Piercing">Piercing</option>
+                            <option value="Tatuaje" name="Tatuaje">Tatuaje</option>
+                        </select>
+                        <small id="procedimientoDelCliente" class="form-text text-muted">Selecciona el procedimiento que quieres realizarte.</small>
+                    </div>
+                    <input type="submit" value="Cotizar" name="enviar" class="btn btn-primary d-block" id="boton" href="google.com"/>
+                </form>
+            </section>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
