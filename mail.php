@@ -39,6 +39,8 @@
             $mail -> Username = 'juliandra140201@gmail.com';
             //Password
             $mail -> Password = 'Yamid6409801';
+            //Seguridad
+            $mail -> SMTPSecure '';
         } catch (\Throwable $th) {
             //throw $th;
         }
