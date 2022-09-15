@@ -7,7 +7,7 @@
         <meta name="Description" content="Enter your description here"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Wukong Tattoo Studio</title>
         <!-- CDN Font Awesome Icons -->
         <script src="https://kit.fontawesome.com/857f3fe573.js" crossorigin="anonymous"></script>
@@ -121,6 +121,85 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <br>
+            <section id="gallery">
+                <h1 class="text-center">Algunos de nuestros proyectos: </h1>
+                <div class="linea"></div>
+                <div class="contenedor-imagenes">
+                    <div class="imagen">
+                        <img src="IMG/1.jpg" alt="Proyecto 1">
+                        <div class="overlay">
+                            <a href="#" target="_blank">
+                                <h2>Ver trabajo</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="IMG/2.jpg" alt="Proyecto 2">
+                        <div class="overlay">
+                            <a href="#" target="_blank">
+                                <h2>Ver trabajo</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="IMG/3.jpg" alt="Proyecto 3">
+                        <div class="overlay">
+                            <a href="#" target="_blank">
+                                <h2>Ver trabajo</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="IMG/4.jpg" alt="Proyecto 4">
+                        <div class="overlay">
+                            <a href="#" target="_blank">
+                                <h2>Ver trabajo</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="IMG/5.jpg" alt="Proyecto 5">
+                        <div class="overlay">
+                            <a href="#" target="_blank">
+                                <h2>Ver trabajo</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="IMG/6.jpg" alt="Proyecto 6">
+                        <div class="overlay">
+                            <a href="#" target="_blank">
+                                <h2>Ver trabajo</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="IMG/7.jpg" alt="Proyecto 7">
+                        <div class="overlay">
+                            <a href="#" target="_blank">
+                                <h2>Ver trabajo</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="IMG/8.jpg" alt="Proyecto 8">
+                        <div class="overlay">
+                            <a href="#" target="_blank">
+                                <h2>Ver trabajo</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="IMG/9.jpg" alt="Proyecto 9">
+                        <div class="overlay">
+                            <a href="#" target="_blank">
+                                <h2>Ver trabajo</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
             </section>
             <br>
         </div>
