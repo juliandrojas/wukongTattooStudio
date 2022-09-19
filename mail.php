@@ -11,38 +11,25 @@
         echo $correoCliente;
         echo $numeroCelular;
         echo $procedimiento;
-        //Usamos PHPMAILER
-        use PHPMailer\PHPMailer\PHPMailer;
-        use PHPMailer\PHPMailer\SMTP;
-        use PHPMailer\PHPMailer\Exception;
-        //Añadimos los archivos de PHPMailer
-        require 'PHPMailer-master/PHPMailer-master/src/Exception.php';
-        require 'PHPMailer-master/PHPMailer-master/src/OAuth.php';
-        require 'PHPMailer-master/PHPMailer-master/src/OAuthTokenProvider.php';
-        require 'PHPMailer-master/PHPMailer-master/src/PHPMailer.php';
-        require 'PHPMailer-master/PHPMailer-master/src/POP3.php';
-        require 'PHPMailer-master/PHPMailer-master/src/SMTP.php';
-        //Creamos una instancia de la clase PHPMailer
-        //Entre paréntesis escribimos "true" para trabajar excepciones
-        $mail = new PHPMailer(true);
-        try {
-            //code...
-            //Con el objeto mail llamamos a la función SMTPDebug y para ver los mensajes del server usamos SMTP::DEBUG_SERVER; 
-            $mail -> SMTPDebug = SMTP::DEBUG_SERVER; 
-            //Indicamos el uso de la tecnología SMTP
-            $mail -> isSMTP();
-            //Indicamos el host del correo
-            $mail -> Host = 'smtp.herokuapp.com';
-            //Indicamos autenticación SMTP
-            $mail -> SMTPAuth = true;
-            //Correo electrónico
-            $mail -> Username = 'juliandra140201@gmail.com';
-            //Password
-            $mail -> Password = 'Yamid6409801';
-            //Seguridad
-            $mail -> SMTPSecure '';
-        } catch (\Throwable $th) {
-            //throw $th;
-        }
+        //Variable de donde se va a enviar el correo electrónico
+        $correoPersonal = "juliandra140201@gmail.com";
+        //Variable header
+        $header = "DE: " . $correoPersonal " \r\n";
+        $header .= "X-Mailer: PHP/" . phpversion() . "\r\n";
+        $header .= "Mime-Version: 1.0 \r\n";
+        $header .= "Content-Type: text/plain";
+        
+        $mensaje = "Este mensaje fue enviado por: ". $correoPersonal . "\r\n";
+        $mensaje .= "Detalles de la cotización:  \r\n";
+        $mensaje .= "Nombre del cliente: ". $nombreCliente . "\r\n";
+        $mensaje .= "Correo del cliente: ". $correoCliente . "\r\n";
+        $mensaje .= "Número de celular: ". $numeroCelular . "\r\n";
+        $mensaje .= "Procedimiento a realizar: ". $procedimiento . "\r\n";
+
+        $para = $correoCliente;
+        $asunto = "Detalles cotización";
+        mail($para, $asunto, utf8_decode($mensaje), $header);
+        header("Location: index.php");
+        
     }
 ?>
